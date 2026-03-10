@@ -1,0 +1,1 @@
+Depth-First Search Discipline: Avoid broad grep-style searches across the entire codebase when investigating issues. In large repositories, this can flood the context window with irrelevant results. Prefer a depth-first approach by narrowing to the most likely directories, files, or components first, then expand outward only if needed.
