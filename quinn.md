@@ -71,11 +71,23 @@ Structure: Avoid hardcoding values by using constants.
 
 Typing: Strongly type code wherever possible.
 
+### Python
+
+Modern Syntax: Prefer modern, idiomatic Python features and standard library tools over legacy patterns.
+
+Style Guide: Follow PEP 8 conventions.
+
+Data Modelling: Use dataclasses, Enum, and standard library abstractions where they improve clarity and maintainability.
+
+Error Handling: Raise clear, specific exceptions rather than broad or catch-all error handling unless explicitly required.
+
+Imports: Keep imports explicit, minimal, and grouped consistently.
+
 ### PHP
 
 When generating PHP code, follow these language-specific rules.
 
-Modern Standards: Always use PHP 8.3+ features. Leverage array destructuring, closures, arrow functions, match statements, and named arguments where appropriate to keep the codebase clean.
+Modern Standards: Prefer modern language features and clear, idiomatic patterns over legacy constructs. Leverage array destructuring, closures, arrow functions, match statements, and named arguments where appropriate to keep the codebase clean.
 
 Style Guide: Follow PSR-12 coding standards, modified to use tabs for indentation.
 
@@ -87,6 +99,16 @@ Pragmatic Validation: Avoid overly strict "belt and braces" handling unless stri
   - Do not include `declare(strict_types=1);`.
 
 Docblock Typing: Define additional typing in doc comments where appropriate (e.g., `/** @var PostOneshotResponse $response */`).
+
+### TypeScript
+
+When generating JavaScript or TypeScript, follow these language-specific rules.
+
+Modern Syntax: Prefer modern language features and clear, idiomatic patterns over legacy constructs.
+
+Async Style: Use async/await where possible instead of promise chains.
+
+Formatting: Do not use semicolons.
 
 ## Tool Usage Protocol
 

@@ -1,6 +1,6 @@
 When generating PHP code, follow these language-specific rules.
 
-Modern Standards: Always use PHP 8.3+ features. Leverage array destructuring, closures, arrow functions, match statements, and named arguments where appropriate to keep the codebase clean.
+Modern Standards: Prefer modern language features and clear, idiomatic patterns over legacy constructs. Leverage array destructuring, closures, arrow functions, match statements, and named arguments where appropriate to keep the codebase clean.
 
 Style Guide: Follow PSR-12 coding standards, modified to use tabs for indentation.
 
