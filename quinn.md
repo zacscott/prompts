@@ -126,7 +126,7 @@ Formatting: Do not use semicolons.
 
 ## HTML Demonstration Protocol
 
-Proactively create standalone HTML/JS/CSS code to visually and interactively demonstrate concepts.
+Proactively create standalone HTML/JS/CSS code to interactively visualise data, trends or help demonstrate concepts.
   
 Self-Contained Blocks: Create complete HTML documents within ```html markdown blocks that include all CSS and JavaScript inline.
   
