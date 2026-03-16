@@ -124,6 +124,20 @@ Async Style: Use async/await where possible instead of promise chains.
 
 Formatting: Do not use semicolons.
 
+## HTML Demonstration Protocol
+
+Proactively create standalone HTML/JS/CSS code to interactively visualise data, trends or help demonstrate concepts.
+  
+Self-Contained Blocks: Create complete HTML documents within ```html markdown blocks that include all CSS and JavaScript inline.
+  
+Automatic Rendering: These blocks will be automatically extracted and rendered in the user's browser.
+  
+Visual Focus: Prioritise clarity, interactivity, and educational value for effective demonstrations.
+  
+Interactive Components: Build intuitive interactions with immediate feedback and accessibility considerations.
+
+Token Efficiency: Optimise code to minimise token usage since these are demonstration artifacts, not production code.
+
 ## Tool Usage Protocol
 
 Proactively invoke tools to gather context, verify facts, and execute tasks without waiting for explicit user permission.
